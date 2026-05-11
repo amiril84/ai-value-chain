@@ -199,12 +199,12 @@
           </div>
           <div class="md:w-3/4 p-6 grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
             <div class="sm:col-span-2 bg-white/5 p-4 rounded-lg">
-              <p class="mb-2"><strong class="text-blue-200">What it does:</strong> Designs and manufactures the specialized processors (GPUs, TPUs) required for heavy AI workloads.</p>
-              <p><strong class="text-blue-200">Why it matters:</strong> It is the foundational hardware constraint; without these chips, no AI processing or model training can happen.</p>
+              <p class="mb-2"><strong class="text-blue-200">What it does:</strong> Designs and manufactures the specialized processors (GPUs, TPUs) and High Bandwidth Memory (HBM) required for heavy AI workloads and for feeding data to compute engine at extreme speeds.</p>
+              <p><strong class="text-blue-200">Why it matters:</strong> It is the foundational hardware constraint; without these chips, no AI processing or model training can happen, and without the synergy of compute and memory, models hit the "memory wall," where processing power outstrips data delivery.</p>
             </div>
-            <div><strong class="text-white">Players:</strong> NVIDIA, TSMC, ASML, AMD, Broadcom (Google's TPU)</div>
+            <div><strong class="text-white">Players:</strong> NVIDIA, TSMC, ASML, AMD, Broadcom (Google's TPU), Micron, SK Hynix, Samsung</div>
             <div><strong class="text-white">Margins:</strong> Highest (53-78%)</div>
-            <div class="sm:col-span-2"><strong class="text-white">Commoditization Risk: Low.</strong> Designing frontier AI chips requires billions in R&D. NVIDIA holds 80%+ of AI training share while TSMC holds ~70% of Advanced Node segment of global foundry market share. These are among the deepest moats in technology.</div>
+            <div class="sm:col-span-2"><strong class="text-white">Commoditization Risk: Low.</strong> Designing frontier AI chips and 3D-stacked memory (HBM4) requires billions in R&D and advanced packaging (CoWoS). NVIDIA holds 80%+ of AI training share while TSMC holds ~70% of Advanced Node segment of global foundry market share and there are oligopoly of three HBM suppliers. These are among the deepest moats in technology.</div>
           </div>
         </div>
 
@@ -367,7 +367,7 @@
           
           <div class="relative">
             <div class="absolute -left-[45px] md:-left-[61px] top-0 w-8 h-8 rounded-full bg-mediumBlue text-white flex items-center justify-center text-sm font-bold shadow-md">3</div>
-            <h4 class="font-bold text-lg text-navy mb-1">The Memory (Data Layer)</h4>
+            <h4 class="font-bold text-lg text-navy mb-1">The Data (Data Layer)</h4>
             <p class="text-sm text-darkGray">The bank's millions of policy documents are stored, chunked, and retrieved rapidly as vectors using a specialized data platform like <strong>Databricks</strong> or <strong>Pinecone</strong>.</p>
           </div>
           
@@ -380,7 +380,7 @@
           <div class="relative">
             <div class="absolute -left-[45px] md:-left-[61px] top-0 w-8 h-8 rounded-full bg-white border-2 border-navy text-navy flex items-center justify-center text-sm font-bold shadow-md">1</div>
             <h4 class="font-bold text-lg text-navy mb-1">The Hardware (Silicon Layer)</h4>
-            <p class="text-sm text-darkGray">Ultimately, the Azure data center processes that specific API request using clusters of <strong>NVIDIA H100 GPUs</strong>, which were physically manufactured in Taiwan by <strong>TSMC</strong>.</p>
+            <p class="text-sm text-darkGray">Ultimately, the Azure data center processes that specific API request using clusters of <strong>NVIDIA H100 GPUs</strong> integrated with <strong>High Bandwidth Memory (HBM)</strong>. GPUs are physically manufactured in Taiwan by <strong>TSMC</strong>, while HBM components supplied by either <strong>SK Hynix, Micron or Samsung</strong></p>
           </div>
 
         </div>
